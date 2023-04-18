@@ -1,0 +1,4 @@
+.navBg {
+    background: rgb(0,0,0);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.437), rgb(0, 0, 0));
+}

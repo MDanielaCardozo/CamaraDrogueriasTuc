@@ -7,18 +7,39 @@
     background: url('../../img/drogueriaCarouselUno.jpeg') no-repeat center/cover;
     width: 100%;
     height: 450px;
+    filter: grayscale(40%);
+}
+
+.portadaUno:hover {
+    transform: scale(1.5);
+    filter: grayscale(0%);
+    transition: 800ms;
 }
 
 .portadaDos {
     background: url('../../img/drogueriaCarouselDos.jpeg') no-repeat center/cover;
     width: 100%;
     height: 450px;
+    filter: grayscale(40%);
+}
+
+.portadaDos:hover {
+    transform: scale(1.5);
+    filter: grayscale(0%);
+    transition: 800ms;
 }
 
 .portadaTres {
     background: url('../../img/drogueriaCarouselTres.jpeg') no-repeat center/cover;
     width: 100%;
     height: 450px;
+    filter: grayscale(40%);
+}
+
+.portadaTres:hover {
+    transform: scale(1.5);
+    filter: grayscale(0%);
+    transition: 800ms;
 }
 
 .titulo {
@@ -37,6 +58,11 @@
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
     margin: 15px;
     border-radius: 75px 75px 75px 75px;
+}
+
+.iconoBg:hover {
+    transform: scale(1.2);
+    transition: 850ms;
 }
 
 .btnIconos {

@@ -9,13 +9,13 @@
   color: whitesmoke;
 }
 
-.footerLetra a{
+.footerLetra a {
   font-weight: 300;
-}
-.positionFooter {
+} 
+/* .positionFooter {
   margin-top: auto;
   background-color: rgb(0, 0, 0);
-}
+} */
 
 @media screen and (min-width: 390px) and (max-width: 767px) {
     .logoImg {

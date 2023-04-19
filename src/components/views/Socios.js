@@ -1,11 +1,302 @@
-import React from 'react';
+import React from "react";
+import "../views/Socios.css";
+import { Card, Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import LogoPhar from "../../img/PharmaTukLogo.png";
+import LogoDrog from "../../img/logoDrogueria.jpg";
 
 const Socios = () => {
-    return (
+  return (
+    <div className="bgColor py-5">
+      <article className="container sociosArt py-4">
+        <h2 className="my-4">SOCIOS</h2>
         <div>
-            
+          <Row className="mb-5">
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3 cardSocios">
+                <Link>
+                  <Card.Img variant="top" src={LogoDrog}/>
+                  <Card.Body>
+                    <Card.Text>OPHICUS SRL</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img variant="top" src={LogoPhar}/>
+                  <Card.Body>
+                    <Card.Text>PHARMATUK SRL</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>ARGENTINA MEDICAL SRL</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>DROGUERIA FG</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+          </Row>
+          <Row className="mb-5">
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>PLAZA OÑA</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>NOVAMED</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>Drogueria traful srl</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>Drogueria victoria S.A.S</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+          </Row>
+          <Row className="mb-5">
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>Martínez Duloc Andrea Karina</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>Echevarría Julio Cesar</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>Droguería Oncofarma SRL</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>Macropharma S.A.</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+          </Row>
+          <Row className="mb-5">
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+                <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>DROGUERIA SAN JUAN SRL</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+              
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+                <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>MEDICINA INTEGRAL SRL</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+              
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>DROGUERIA DEL NORTE</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>TU SALUD S.R.L</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+          </Row>
+          <Row className="mb-5">
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>DROGUERÍA ÁRNICA S.A.S.</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <Card className="w-100 p-1 mb-3">
+                <Link>
+                  <Card.Img />
+                  <Card.Body>
+                    <Card.Text>COSMO PHARMA SRL</Card.Text>
+                  </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+          </Row>
         </div>
-    );
+      </article>
+    </div>
+  );
 };
 
 export default Socios;

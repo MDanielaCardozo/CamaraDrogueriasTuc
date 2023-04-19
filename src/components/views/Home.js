@@ -9,7 +9,7 @@ import {
   faPeopleGroup,
   faQuoteLeft,
 } from "@fortawesome/free-solid-svg-icons";
-import AvatInst from "../../img/avatarInst.jpg";
+import AvatInst from "../../img/avatInst.jpg";
 
 const Home = () => {
   return (
@@ -89,72 +89,176 @@ const Home = () => {
           </Row>
         </div>
       </section>
-      <section className="container text-dark py-5">
-        <Carousel  className="carouselInfo">
-          <Carousel.Item>
-            <div className="">
-              <Row className="">
-                <Col lg={3} className="d-flex justify-content-center">
-                  <div className="iconoTexto">
-                    <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
-                  </div>
-                </Col>
-                <Col lg={2}>
-                    <img src={AvatInst} alt="" srcset="" className="w-100 mt-5"/>
-                </Col>
-                <Col lg={6} className="texto">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
-                    esse veniam consequuntur modi eius repellendus eligendi eos
-                    cupiditate accusantium aperiam consequatur dolores."
-                  </p>
-                </Col>
-              </Row>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item className="carouselInfo">
-            <div>
-              <Row>
-                <Col lg={3} className="d-flex justify-content-center">
-                  <div className=" iconoTexto">
-                    <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
-                  </div>
-                </Col>
-                <Col lg={2}>foto</Col>
-                <Col lg={6} className="texto">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
-                    esse veniam consequuntur modi eius repellendus eligendi eos
-                    cupiditate accusantium aperiam consequatur dolores.
-                  </p>
-                </Col>
-              </Row>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item className="carouselInfo">
-            <div>
-              <Row>
-                <Col lg={3} className="d-flex justify-content-center">
-                  <div className=" iconoTexto">
-                    <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
-                  </div>
-                </Col>
-                <Col lg={2}>foto</Col>
-                <Col lg={6} className="texto">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
-                    esse veniam consequuntur modi eius repellendus eligendi eos
-                    cupiditate accusantium aperiam consequatur dolores.
-                  </p>
-                </Col>
-              </Row>
-            </div>
-          </Carousel.Item>
-        </Carousel>
+      <section className="containerText text-dark">
+        <div className="container content">
+          <Carousel className="carouselInfo">
+            <Carousel.Item>
+              <div className="">
+                <Row className="">
+                  <Col lg={3} sm={3} className="d-flex justify-content-center">
+                    <div className="iconoTexto">
+                      <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
+                    </div>
+                  </Col>
+                  <Col lg={2} sm={3}>
+                    <div className="fotoAvatar">
+                      <img src={AvatInst} alt="" className="w-100" />
+                    </div>
+                  </Col>
+                  <Col lg={6} sm={5} className="texto">
+                    <p className="parrafo">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
+                      esse veniam consequuntur modi eius repellendus eligendi
+                      eos cupiditate accusantium aperiam consequatur dolores."
+                    </p>
+                  </Col>
+                </Row>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item className="carouselInfo">
+              <div>
+                <Row>
+                  <Col lg={3} sm={3} className="d-flex justify-content-center">
+                    <div className=" iconoTexto">
+                      <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
+                    </div>
+                  </Col>
+                  <Col lg={2} sm={3}>
+                    <div className="fotoAvatar">
+                      <img src={AvatInst} alt="" className="w-100" />
+                    </div>
+                  </Col>
+                  <Col lg={6} sm={5} className="texto">
+                    <p className="parrafo">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
+                      esse veniam consequuntur modi eius repellendus eligendi
+                      eos cupiditate accusantium aperiam consequatur dolores.
+                    </p>
+                  </Col>
+                </Row>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item className="carouselInfo">
+              <div>
+                <Row>
+                  <Col lg={3} sm={3} className="d-flex justify-content-center">
+                    <div className=" iconoTexto">
+                      <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
+                    </div>
+                  </Col>
+                  <Col lg={2} sm={3}>
+                    <div className="fotoAvatar">
+                      <img src={AvatInst} alt="" className="w-100" />
+                    </div>
+                  </Col>
+                  <Col lg={6} sm={5} className="texto">
+                    <p className="parrafo">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
+                      esse veniam consequuntur modi eius repellendus eligendi
+                      eos cupiditate accusantium aperiam consequatur dolores.
+                    </p>
+                  </Col>
+                </Row>
+              </div>
+            </Carousel.Item>
+          </Carousel>
+        </div>
       </section>
+      <article className="py-5 container">
+        <Row>
+          <Col lg={8} md={12}>
+            <h1 className="tituloNos mb-3">Nosotros</h1>
+            <p className="my-5">
+              Con el objeto de promover y concretar la defensa de los intereses
+              del sector en forma armónica, en un marco de principios éticos y
+              solidarios, un grupo conformado por importantes Empresas del
+              sector, decidió crear la Cámara Argentina de Droguerías y
+              Distribuidoras Especializadas. Somos un eslabón muy importante en
+              la cadena de comercialización y distribución, por lo tanto no
+              podemos carecer de representatividad ante los distintos
+              subsectores que componen el sistema. Somos una herramienta
+              fundamental de ayuda al sistema de salud en general, para
+              enfrentar las distintas enfermedades que padece cada hombre en
+              cualquier región de nuestro país. Somos colaboradores de
+              confianza, especializados en facilitar el acceso a los más
+              variados medicamentos de terapias especiales con el mayor
+              profesionalismo. Garantizamos a la sociedad desde cada una de
+              nuestras Empresas, Calidad, Seguridad y Eficacia. Es necesario
+              coordinar las acciones de los Asociados, con el fin de mejorar la
+              gestión y la capacitación en los distintos lugares de trabajo, sin
+              olvidar que somos un país federal, extenso y con características
+              epidemiológicas diferentes. La complejidad de la situación y su
+              marco, nos obliga a dominar el entramado legal y regulatorio de
+              cada provincia, como respuesta a las distintas problemáticas
+              frente a realidades cambiantes. Pretendemos brindar además,
+              asesoramiento y lograr la representatividad ante los distintos
+              organismos, nacionales y provinciales. Sentimos que no podemos
+              bajo ningún aspecto concepto olvidarnos de la Responsabilidad
+              Social que le cabe a un servicio tan sensible, tendiente a mejorar
+              la calidad de vida. Debemos interpretar al mercado y llevar
+              adelante investigaciones que nos permitan luego de profundos
+              análisis, comprender las políticas macro y micro económicas. De
+              esta manera podremos seguir creciendo sostenidamente, dando lo
+              mejor de nosotros para el bien de la población.
+            </p>
+          </Col>
+          <Col lg={4} md={12}>
+            <h5 className="tituloNos">Comisión directiva</h5>
+            <hr />
+            <p className="my-5">
+              <strong className="tituloNos">Presidente: </strong>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayado"
+              >
+                Blanco Ojeda Gustavo Ezequiel
+              </a>
+              <br />
+              <strong className="tituloNos">Vicepresidente: </strong>Quintana
+              Manuel Francisco
+              <br />
+              <strong className="tituloNos">Secretario: </strong> Echeverria
+              Julio César
+              <br />
+              <strong className="tituloNos">Tesorero: </strong> Gambarte Flavia
+              Lorena
+              <br />
+              <strong className="tituloNos">Vocal Titular 1°: </strong> Gomez
+              Mario Rolando
+              <br />
+              <strong className="tituloNos">Vocal Titular 2°: </strong>
+              Salvatore Enzo
+              <br />
+              <strong className="tituloNos">Vocal Titular 3°: </strong>Ramón
+              Gustavo Ariel Juan
+              <br />
+              <strong className="tituloNos">Vocal Titular 4°: </strong>Plaza
+              Diaz Elias Juan
+              <br />
+              <strong className="tituloNos">Vocal Suplente 1°: </strong> Lorena
+              S. Bonata
+              <br />
+              <strong className="tituloNos">Vocal Suplente 2°: </strong>
+              Silvetti Ricardo Eugenio
+              <br />
+              <strong className="tituloNos">Revisor de cuentas titular 1°: </strong>
+              Prette Rubén Horacio
+              <br />
+              <strong className="tituloNos">Revisor de cuentas titular 1°: </strong>Ciancaglini 
+              Mario Rubén
+              <br />
+              <strong className="tituloNos">Revisor de cuentas titular 1°: </strong>Salvatore 
+              Enzo
+              <br />
+            </p>
+          </Col>
+        </Row>
+      </article>
     </main>
   );
 };

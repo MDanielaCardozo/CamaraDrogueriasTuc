@@ -26,11 +26,11 @@ function CollapsibleExample() {
             <NavLink to="/" className="nav-item nav-link hovMenu">
               <FontAwesomeIcon icon={faHouse} />
             </NavLink>
-            <Nav.Link href="#features">SOCIOS</Nav.Link>
-            <Nav.Link href="#pricing">SITIOS OFICIALES</Nav.Link>
-            <Nav.Link href="#deets">SERVICIOS</Nav.Link>
-            <Nav.Link href="#deets">NOVEDADES</Nav.Link>
-            <Nav.Link href="#deets"> CONTACTO</Nav.Link>
+            <NavLink to="/socios" className="nav-item nav-link hovMenu">SOCIOS</NavLink>
+            <NavLink to="/sitiosOficiales" className="nav-item nav-link hovMenu">SITIOS OFICIALES</NavLink>
+            <NavLink to="/servicios" className="nav-item nav-link hovMenu">SERVICIOS</NavLink>
+            <NavLink to="/novedades" className="nav-item nav-link hovMenu">NOVEDADES</NavLink>
+            <NavLink to="/contacto" className="nav-item nav-link hovMenu"> CONTACTO</NavLink>
           </Nav>
           <Nav></Nav>
         </Navbar.Collapse>

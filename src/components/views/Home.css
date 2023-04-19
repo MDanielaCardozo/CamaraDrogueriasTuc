@@ -25,7 +25,7 @@
     width: 100%;
     height: auto;
     background-color: rgba(18, 66, 223, 0.45);
-    background: linear-gradient(to top, rgba(18, 66, 223, 0.45), rgb(93, 109, 255));
+    /* background: linear-gradient(to top, rgba(18, 66, 223, 0.45), rgb(93, 109, 255)); */
 }
 
 .iconoBg {
@@ -62,5 +62,30 @@
 .texto {
     width: 100%;
     height: auto;
-    padding-top: 70px ;
 }
+
+.fotoAvatar {
+    margin-top: 90px;
+}
+
+.parrafo {
+    margin-top: 90px;
+}
+
+.containerText {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transform: skew(0deg, -2.7deg);
+}
+
+.containerText .content{
+    transform: skew(0deg, 2.7deg);
+    text-align: center;
+}
+
+.tituloNos {
+    color: rgba(18, 66, 223, 0.45);
+}
+

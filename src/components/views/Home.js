@@ -6,8 +6,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBullhorn,
   faCircleNodes,
-  faPeopleGroup
+  faPeopleGroup,
+  faQuoteLeft,
 } from "@fortawesome/free-solid-svg-icons";
+import AvatInst from "../../img/avatarInst.jpg";
 
 const Home = () => {
   return (
@@ -36,9 +38,7 @@ const Home = () => {
               <div>
                 <Link to={"/"}>
                   <div className="iconoBg">
-                    <FontAwesomeIcon
-                      icon={faPeopleGroup}
-                    ></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faPeopleGroup}></FontAwesomeIcon>
                   </div>
                 </Link>
                 <div className="btnIconos">
@@ -88,6 +88,72 @@ const Home = () => {
             </Col>
           </Row>
         </div>
+      </section>
+      <section className="container text-dark py-5">
+        <Carousel  className="carouselInfo">
+          <Carousel.Item>
+            <div className="">
+              <Row className="">
+                <Col lg={3} className="d-flex justify-content-center">
+                  <div className="iconoTexto">
+                    <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
+                  </div>
+                </Col>
+                <Col lg={2}>
+                    <img src={AvatInst} alt="" srcset="" className="w-100 mt-5"/>
+                </Col>
+                <Col lg={6} className="texto">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
+                    esse veniam consequuntur modi eius repellendus eligendi eos
+                    cupiditate accusantium aperiam consequatur dolores."
+                  </p>
+                </Col>
+              </Row>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item className="carouselInfo">
+            <div>
+              <Row>
+                <Col lg={3} className="d-flex justify-content-center">
+                  <div className=" iconoTexto">
+                    <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
+                  </div>
+                </Col>
+                <Col lg={2}>foto</Col>
+                <Col lg={6} className="texto">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
+                    esse veniam consequuntur modi eius repellendus eligendi eos
+                    cupiditate accusantium aperiam consequatur dolores.
+                  </p>
+                </Col>
+              </Row>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item className="carouselInfo">
+            <div>
+              <Row>
+                <Col lg={3} className="d-flex justify-content-center">
+                  <div className=" iconoTexto">
+                    <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
+                  </div>
+                </Col>
+                <Col lg={2}>foto</Col>
+                <Col lg={6} className="texto">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
+                    esse veniam consequuntur modi eius repellendus eligendi eos
+                    cupiditate accusantium aperiam consequatur dolores.
+                  </p>
+                </Col>
+              </Row>
+            </div>
+          </Carousel.Item>
+        </Carousel>
       </section>
     </main>
   );

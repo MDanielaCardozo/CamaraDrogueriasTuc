@@ -1,0 +1,9 @@
+.bgColor {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+
+.iconoContacto {
+    font-size: 30px;
+    color: rgba(18, 66, 223, 0.45);
+}

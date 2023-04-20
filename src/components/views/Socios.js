@@ -10,9 +10,10 @@ const Socios = () => {
   return (
     <div className="bgColor py-5">
       <article className="container sociosArt py-4">
-        <h2 className="my-4">SOCIOS</h2>
+        <h2 className="my-4 text-secondary">SOCIOS</h2>
+        <hr />
         <div>
-          <Row className="mb-5">
+          <Row className="my-5">
             <Col
               sm={12}
               md={6}

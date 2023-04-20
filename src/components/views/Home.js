@@ -36,13 +36,13 @@ const Home = () => {
               className="d-flex justify-content-center"
             >
               <div>
-                <Link to={"/"}>
+                <Link to={"/socios"}>
                   <div className="iconoBg">
                     <FontAwesomeIcon icon={faPeopleGroup}></FontAwesomeIcon>
                   </div>
                 </Link>
                 <div className="btnIconos">
-                  <Link to={"/"} className="btn text-white">
+                  <Link to={"/socios"} className="btn text-white">
                     <p className="h6 mt-1 fs-5">SOCIOS</p>
                   </Link>
                 </div>
@@ -55,13 +55,13 @@ const Home = () => {
               className="d-flex justify-content-center"
             >
               <div>
-                <Link to={"/"}>
+                <Link to={"/servicios"}>
                   <div className="iconoBg">
                     <FontAwesomeIcon icon={faCircleNodes}></FontAwesomeIcon>
                   </div>
                 </Link>
                 <div className="btnIconos">
-                  <Link to={"/"} className="btn text-white">
+                  <Link to={"/servicios"} className="btn text-white">
                     <p className="h6 mt-1 fs-5">SERVICIOS</p>
                   </Link>
                 </div>
@@ -74,13 +74,13 @@ const Home = () => {
               className="d-flex justify-content-center"
             >
               <div>
-                <Link to={"/"}>
+                <Link to={"/novedades"}>
                   <div className="iconoBg">
                     <FontAwesomeIcon icon={faBullhorn}></FontAwesomeIcon>
                   </div>
                 </Link>
                 <div className="btnIconos">
-                  <Link to={"/"} className="btn text-white">
+                  <Link to={"/novedades"} className="btn text-white">
                     <p className="h6 mt-1 fs-5">NOVEDADES</p>
                   </Link>
                 </div>
@@ -95,41 +95,52 @@ const Home = () => {
             <Carousel.Item>
               <div className="">
                 <Row className="">
-                  <Col lg={3} sm={3} className="d-flex justify-content-center">
-                    <div className="iconoTexto">
+                  <Col
+                    lg={3}
+                    md={3}
+                    xs={4}
+                    className="d-flex justify-content-center"
+                  >
+                    <div className="iconoTexto ">
                       <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
                     </div>
                   </Col>
-                  <Col lg={2} sm={3}>
+                  <Col lg={2} md={3} xs={4}>
                     <div className="fotoAvatar">
                       <img src={AvatInst} alt="" className="w-100" />
                     </div>
                   </Col>
-                  <Col lg={6} sm={5} className="texto">
+                  <Col lg={6} md={5} sm={12} className="texto">
                     <p className="parrafo">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
-                      esse veniam consequuntur modi eius repellendus eligendi
-                      eos cupiditate accusantium aperiam consequatur dolores."
+                      Dice Gustavo Blanco, Presidente del Directorio de la
+                      Cámara de Droguerías de Tucumán "Consideramos la imperiosa
+                      necesidad de crear la Cámara, debido a la necesidad de
+                      sentirnos representados y lo fundamental que es para el
+                      sistema de salud."
                     </p>
                   </Col>
                 </Row>
               </div>
             </Carousel.Item>
-            <Carousel.Item className="carouselInfo">
+            <Carousel.Item>
               <div>
                 <Row>
-                  <Col lg={3} sm={3} className="d-flex justify-content-center">
+                  <Col
+                    lg={3}
+                    md={3}
+                    xs={4}
+                    className="d-flex justify-content-center"
+                  >
                     <div className=" iconoTexto">
                       <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
                     </div>
                   </Col>
-                  <Col lg={2} sm={3}>
+                  <Col lg={2} md={3} xs={4}>
                     <div className="fotoAvatar">
                       <img src={AvatInst} alt="" className="w-100" />
                     </div>
                   </Col>
-                  <Col lg={6} sm={5} className="texto">
+                  <Col lg={6} md={5} sm={12} className="texto">
                     <p className="parrafo">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
@@ -140,20 +151,25 @@ const Home = () => {
                 </Row>
               </div>
             </Carousel.Item>
-            <Carousel.Item className="carouselInfo">
+            <Carousel.Item>
               <div>
                 <Row>
-                  <Col lg={3} sm={3} className="d-flex justify-content-center">
+                  <Col
+                    lg={3}
+                    md={3}
+                    xs={4}
+                    className="d-flex justify-content-center"
+                  >
                     <div className=" iconoTexto">
                       <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
                     </div>
                   </Col>
-                  <Col lg={2} sm={3}>
+                  <Col lg={2} md={3} xs={4}>
                     <div className="fotoAvatar">
                       <img src={AvatInst} alt="" className="w-100" />
                     </div>
                   </Col>
-                  <Col lg={6} sm={5} className="texto">
+                  <Col lg={6} md={5} sm={12} className="texto">
                     <p className="parrafo">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
@@ -170,8 +186,8 @@ const Home = () => {
       <article className="py-5 container">
         <Row>
           <Col lg={8} md={12}>
-            <h1 className="tituloNos mb-3">Nosotros</h1>
-            <p className="my-5">
+            <h1 className="tituloNos mb-3 fontW">Nosotros</h1>
+            <p className="my-5 me-5 p-2">
               Con el objeto de promover y concretar la defensa de los intereses
               del sector en forma armónica, en un marco de principios éticos y
               solidarios, un grupo conformado por importantes Empresas del
@@ -206,9 +222,9 @@ const Home = () => {
             </p>
           </Col>
           <Col lg={4} md={12}>
-            <h5 className="tituloNos">Comisión directiva</h5>
+            <h4 className="tituloNos">Comisión directiva</h4>
             <hr />
-            <p className="my-5">
+            <p className="my-5 font">
               <strong className="tituloNos">Presidente: </strong>
               <a
                 href="http://"
@@ -246,14 +262,20 @@ const Home = () => {
               <strong className="tituloNos">Vocal Suplente 2°: </strong>
               Silvetti Ricardo Eugenio
               <br />
-              <strong className="tituloNos">Revisor de cuentas titular 1°: </strong>
+              <strong className="tituloNos">
+                Revisor de cuentas titular 1°:{" "}
+              </strong>
               Prette Rubén Horacio
               <br />
-              <strong className="tituloNos">Revisor de cuentas titular 1°: </strong>Ciancaglini 
-              Mario Rubén
+              <strong className="tituloNos">
+                Revisor de cuentas titular 1°:{" "}
+              </strong>
+              Ciancaglini Mario Rubén
               <br />
-              <strong className="tituloNos">Revisor de cuentas titular 1°: </strong>Salvatore 
-              Enzo
+              <strong className="tituloNos">
+                Revisor de cuentas titular 1°:{" "}
+              </strong>
+              Salvatore Enzo
               <br />
             </p>
           </Col>

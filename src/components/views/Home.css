@@ -1,6 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap");
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
 .bgColor {
     background-color: rgba(0, 0, 0, 0.1);
     height: auto;
+}
+
+.fontW {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500 !important;
 }
 
 .portadaUno {
@@ -115,3 +126,44 @@
     color: rgba(18, 66, 223, 0.45);
 }
 
+@media all and (min-width: 300px) and (max-width: 690px) {
+    .carouselInfo {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .containerText {
+        padding: 15px;
+    }
+
+    .parrafo {
+        margin-bottom: 15px;
+        margin-top: 40px;
+    }
+
+    .iconoTexto {
+        margin: 2px;
+        padding: 5px;
+    }
+
+    .fotoAvatar {
+        margin-top: 40px;
+        width: 150px;
+    }
+}
+
+@media all and (min-width: 691px) and (max-width: 768px) {
+    .carouselInfo {
+        width: 100%;
+        height: auto;
+    }
+
+    .parrafo {
+        margin-bottom: 15px;
+        margin-top: 40px;
+    }
+
+}

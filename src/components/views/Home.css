@@ -60,6 +60,20 @@
     /* background: linear-gradient(to top, rgba(18, 66, 223, 0.45), rgb(93, 109, 255)); */
 }
 
+.tituloMov {
+    animation: myMov;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-duration: 2900ms;
+}
+
+@keyframes myMov{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
 .iconoBg {
     font-size: 90px;
     color: rgba(18, 66, 223, 0.45);
@@ -81,6 +95,20 @@
     height: 50px;
     background-color: rgba(18, 66, 223, 0.45);
     border-radius: 50px 50px 50px 50px;
+}
+
+.iconoBtn {
+    animation: mySlide;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-duration: 1500ms;
+}
+
+@keyframes mySlide{
+    from{margin-top: 100%;}
+    to{margin-bottom: 0%;}
 }
 
 .iconoTexto {

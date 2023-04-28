@@ -38,7 +38,7 @@ const Servicios = () => {
                 <Card.Img variant="top" src={AseCont} className="imgCard" />
                 <Card.Body className="p-1 text-center">
                   <Card.Text>
-                    <h5 className="tituloNos">ASESORAMIENTO CONTABLE</h5>
+                    <p className="tituloNos">ASESORAMIENTO CONTABLE</p>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -53,7 +53,7 @@ const Servicios = () => {
                 <Card.Img variant="top" src={AseReg} className="imgCard" />
                 <Card.Body className="p-1 text-center">
                   <Card.Text>
-                    <h5 className="tituloNos">ASESORAMIENTO REGULADOR</h5>
+                    <p className="tituloNos">ASESORAMIENTO REGULADOR</p>
                   </Card.Text>
                 </Card.Body>
               </Card>

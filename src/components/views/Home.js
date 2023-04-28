@@ -22,7 +22,7 @@ const Home = () => {
         </Carousel>
       </section>
       <section className="titulo py-3">
-        <div className=" w-100 d-flex justify-content-center text-light">
+        <div className=" w-100 d-flex justify-content-center text-light tituloMov">
           <h1 className="text-center">CÁMARA DE DROGUERÍAS DE TUCUMÁN</h1>
         </div>
       </section>
@@ -35,7 +35,7 @@ const Home = () => {
               lg={4}
               className="d-flex justify-content-center"
             >
-              <div>
+              <div className="iconoBtn">
                 <Link to={"/socios"}>
                   <div className="iconoBg">
                     <FontAwesomeIcon icon={faPeopleGroup}></FontAwesomeIcon>
@@ -54,7 +54,7 @@ const Home = () => {
               lg={4}
               className="d-flex justify-content-center"
             >
-              <div>
+              <div className="iconoBtn">
                 <Link to={"/servicios"}>
                   <div className="iconoBg">
                     <FontAwesomeIcon icon={faCircleNodes}></FontAwesomeIcon>
@@ -73,7 +73,7 @@ const Home = () => {
               lg={4}
               className="d-flex justify-content-center"
             >
-              <div>
+              <div className="iconoBtn">
                 <Link to={"/novedades"}>
                   <div className="iconoBg">
                     <FontAwesomeIcon icon={faBullhorn}></FontAwesomeIcon>

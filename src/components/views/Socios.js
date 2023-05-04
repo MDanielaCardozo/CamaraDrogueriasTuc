@@ -3,8 +3,9 @@ import "../views/Socios.css";
 import { Card, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import LogoPhar from "../../img/PharmaTukLogo.png";
-import LogoDrog from "../../img/logoDrogueria.jpg";
+import LogoDrog from "../../img/ophicusLogoHome.png";
 import LogoDrogDos from "../../img/logoDrogueriaDos.jpg";
+import LogoOnc from "../../img/logoOncofarma.jpg";
 
 const Socios = () => {
   return (
@@ -176,7 +177,7 @@ const Socios = () => {
             >
               <Card className="p-1 mb-3 cardSocios">
                 <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+                  <Card.Img variant="top" src={LogoOnc} className="imgCard"/>
                   <Card.Body className="p-1 text-center">
                     <Card.Text>Droguería Oncofarma SRL</Card.Text>
                   </Card.Body>

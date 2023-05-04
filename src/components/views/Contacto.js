@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+// import { useState } from "react";
 import "../views/Contacto.css";
 import { Row, Col, Form, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,31 +11,31 @@ import {
 import MapaGoogle from "./MapaGoogle";
 
 const Contacto = () => {
-  const [nombre, setnombre] = useState("");
-  const [email, setemail] = useState("");
+  // const [nombre, setnombre] = useState("");
+  // const [email, setemail] = useState("");
 
   return (
     <div className="bgColor py-5">
       <section className="container">
         <h2 className="my-4 text-secondary">CONTACTO</h2>
         <hr />
-        <Row>
+        <Row className="d-flex">
           <Col lg={6} md={6} sm={12} className="my-5">
-            <div className="d-flex ">
+            <div className="d-flex">
               <FontAwesomeIcon
                 icon={faLocationDot}
                 className="iconoContacto mx-3"
               ></FontAwesomeIcon>
-              <p>
+              <p className="textoC">
                 Ayacucho 830, San Miguel de Tucumán (4000). Argentina.
               </p>
             </div>
-            <div className="d-flex my-3">
+            <div className="d-flex my-4">
               <FontAwesomeIcon
                 icon={faEnvelope}
                 className="iconoContacto mx-3"
               ></FontAwesomeIcon>
-              <p>
+              <p className="textoC">
                 camaradedrogueriasdetucuman@gmail.com
               </p>
             </div>
@@ -43,7 +44,7 @@ const Contacto = () => {
                 icon={faPhone}
                 className="iconoContacto mx-3"
               ></FontAwesomeIcon>
-              <p>
+              <p className="textoC">
                 381-6833503
               </p>
             </div>
@@ -54,13 +55,13 @@ const Contacto = () => {
               <Form.Control
                 type="text"
                 placeholder="entre (8 y 40) caracteres."
-                onChange={(e) => setnombre(e.target.value.trim())}
+                // onChange={(e) => setnombre(e.target.value.trim())}
               />
               <Form.Label className="my-2">Email *</Form.Label>
               <Form.Control
                 type="text"
                 placeholder="Ej: juanperez@gmail.com"
-                onChange={(e) => setemail(e.target.value.trim())}
+                // onChange={(e) => setemail(e.target.value.trim())}
               />
               <Form.Label className="my-2">Mensaje</Form.Label>
               <Form.Control as="textarea" rows={3} />
@@ -71,7 +72,11 @@ const Contacto = () => {
           </Col>
         </Row>
       </section>
-      <section className="container googleMap">
+      <section className="container">
+      <div className='mb-5 text-secondary'>
+                <h2>MAPA</h2>
+                <hr />
+                </div>
         <MapaGoogle></MapaGoogle>
       </section>
     </div>

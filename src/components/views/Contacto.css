@@ -7,3 +7,10 @@
     font-size: 30px;
     color: rgba(18, 66, 223, 0.45);
 }
+
+@media all and (min-width: 320px) and (max-width: 505px) {
+    .textoC {
+        font-size: 10px;
+    }
+  }
+  

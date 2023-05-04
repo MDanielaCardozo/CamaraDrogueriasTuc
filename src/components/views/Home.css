@@ -154,6 +154,12 @@
     color: rgba(18, 66, 223, 0.45);
 }
 
+.tituloSer {
+    color: rgba(18, 66, 223, 0.45);
+    font-weight: 600;
+}
+
+
 @media all and (min-width: 300px) and (max-width: 690px) {
     .carouselInfo {
         width: 100%;

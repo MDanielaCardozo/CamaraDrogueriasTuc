@@ -21,14 +21,15 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrog} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img variant="top" src={LogoDrog} className="imgCard" />
+
                   <Card.Body className="p-1 text-center">
                     <Card.Text>OPHICUS SRL</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
             <Col
               sm={12}
@@ -36,14 +37,14 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoPhar} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img variant="top" src={LogoPhar} className="imgCard" />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>PHARMATUK SRL</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
             <Col
               sm={12}
@@ -51,14 +52,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>ARGENTINA MEDICAL SRL</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
             <Col
               sm={12}
@@ -66,14 +71,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>DROGUERIA FG</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
           </Row>
           <Row className="mb-5">
@@ -83,14 +92,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>PLAZA OÑA</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
             <Col
               sm={12}
@@ -98,14 +111,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>NOVAMED</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
             <Col
               sm={12}
@@ -113,14 +130,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>Drogueria traful srl</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
             <Col
               sm={12}
@@ -128,14 +149,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>Drogueria victoria S.A.S</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
           </Row>
           <Row className="mb-5">
@@ -145,14 +170,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>Martínez Duloc Andrea Karina</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
             <Col
               sm={12}
@@ -160,14 +189,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>Echevarría Julio Cesar</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
             <Col
               sm={12}
@@ -175,14 +208,14 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoOnc} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img variant="top" src={LogoOnc} className="imgCard" />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>Droguería Oncofarma SRL</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
             <Col
               sm={12}
@@ -190,14 +223,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>Macropharma S.A.</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
           </Row>
           <Row className="mb-5">
@@ -207,15 +244,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
+              <Link className="subrayadoText">
                 <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>DROGUERIA SAN JUAN SRL</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
-              
+                </Card>
+              </Link>
             </Col>
             <Col
               sm={12}
@@ -223,15 +263,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
+              <Link className="subrayadoText">
                 <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>MEDICINA INTEGRAL SRL</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
-              
+                </Card>
+              </Link>
             </Col>
             <Col
               sm={12}
@@ -239,14 +282,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>DROGUERIA DEL NORTE</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
             <Col
               sm={12}
@@ -254,14 +301,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>TU SALUD S.R.L</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
           </Row>
           <Row className="mb-5">
@@ -271,14 +322,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>DROGUERÍA ÁRNICA S.A.S.</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
             <Col
               sm={12}
@@ -286,14 +341,18 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
-                <Link>
-                  <Card.Img variant="top" src={LogoDrogDos} className="imgCard"/>
+              <Link className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>COSMO PHARMA SRL</Card.Text>
                   </Card.Body>
-                </Link>
-              </Card>
+                </Card>
+              </Link>
             </Col>
           </Row>
         </div>

@@ -20,34 +20,31 @@ const Contacto = () => {
         <hr />
         <Row>
           <Col lg={6} md={6} sm={12} className="my-5">
-            <div className="d-flex justify-content-between">
+            <div className="d-flex ">
               <FontAwesomeIcon
                 icon={faLocationDot}
                 className="iconoContacto mx-3"
               ></FontAwesomeIcon>
               <p>
-                Pilcomayo 314, esquina Brasil 1100 Lanús Oeste, Pcia. Buenos
-                Aires, Argentina
+                Ayacucho 830, San Miguel de Tucumán (4000). Argentina.
               </p>
             </div>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex my-3">
               <FontAwesomeIcon
                 icon={faEnvelope}
                 className="iconoContacto mx-3"
               ></FontAwesomeIcon>
               <p>
-                Pilcomayo 314, esquina Brasil 1100 Lanús Oeste, Pcia. Buenos
-                Aires, Argentina
+                camaradedrogueriasdetucuman@gmail.com
               </p>
             </div>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex">
               <FontAwesomeIcon
                 icon={faPhone}
                 className="iconoContacto mx-3"
               ></FontAwesomeIcon>
               <p>
-                Pilcomayo 314, esquina Brasil 1100 Lanús Oeste, Pcia. Buenos
-                Aires, Argentina
+                381-6833503
               </p>
             </div>
           </Col>

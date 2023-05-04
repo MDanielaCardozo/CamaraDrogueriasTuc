@@ -230,7 +230,7 @@ const Home = () => {
                 href="http://"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="subrayado"
+                className="subrayado tituloSer"
               >
                 Blanco Ojeda Gustavo Ezequiel
               </a>

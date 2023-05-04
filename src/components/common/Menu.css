@@ -2,3 +2,28 @@
     background: rgb(0,0,0);
     background: linear-gradient(to top, rgba(0, 0, 0, 0.437), rgb(0, 0, 0));
 }
+
+.hovMenu:hover {
+    color: rgb(93, 109, 255) !important;
+}
+
+.boton {
+    color: #eee!important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: rgba(0,0,0,0);
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgba(141, 0, 0, 0);
+    transition: all 1s ease;
+    position: relative;
+  }
+  .boton:hover {
+ 
+    background: rgba(0,0,0,0);
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #eee;
+    transition: all 1s ease;
+  }

@@ -6,6 +6,11 @@ import LogoPhar from "../../img/PharmaTukLogo.png";
 import LogoDrog from "../../img/ophicusLogoHome.png";
 import LogoDrogDos from "../../img/logoDrogueriaDos.jpg";
 import LogoOnc from "../../img/logoOncofarma.jpg";
+import LogoDrogFg from "../../img/logo-CamaraFG.jpg";
+import LogoDrogPlaza from "../../img/drogueriaPlazaO.png";
+import LogoDrogMacro from "../../img/drogueriaMacropharma.png";
+import LogoDrogTuSalud from "../../img/drogueriaTuSalud.jpg";
+import LogoDrogCosmo from "../../img/drogueriacosmopharma.jpg";
 
 const Socios = () => {
   return (
@@ -60,7 +65,7 @@ const Socios = () => {
                     className="imgCard"
                   />
                   <Card.Body className="p-1 text-center">
-                    <Card.Text>ARGENTINA MEDICAL SRL</Card.Text>
+                    <Card.Text>ARGENTIA MEDICAL SRL</Card.Text>
                   </Card.Body>
                 </Card>
               </Link>
@@ -75,7 +80,7 @@ const Socios = () => {
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
-                    src={LogoDrogDos}
+                    src={LogoDrogFg}
                     className="imgCard"
                   />
                   <Card.Body className="p-1 text-center">
@@ -96,7 +101,7 @@ const Socios = () => {
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
-                    src={LogoDrogDos}
+                    src={LogoDrogPlaza}
                     className="imgCard"
                   />
                   <Card.Body className="p-1 text-center">
@@ -227,7 +232,7 @@ const Socios = () => {
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
-                    src={LogoDrogDos}
+                    src={LogoDrogMacro}
                     className="imgCard"
                   />
                   <Card.Body className="p-1 text-center">
@@ -305,7 +310,7 @@ const Socios = () => {
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
-                    src={LogoDrogDos}
+                    src={LogoDrogTuSalud}
                     className="imgCard"
                   />
                   <Card.Body className="p-1 text-center">
@@ -345,7 +350,7 @@ const Socios = () => {
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
-                    src={LogoDrogDos}
+                    src={LogoDrogCosmo}
                     className="imgCard"
                   />
                   <Card.Body className="p-1 text-center">

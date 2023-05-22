@@ -36,7 +36,7 @@ const Contacto = () => {
                 className="iconoContacto mx-3"
               ></FontAwesomeIcon>
               <p className="textoC">
-                camaradedrogueriasdetucuman@gmail.com
+                camaradedrogueriastucuman@gmail.com
               </p>
             </div>
             <div className="d-flex">

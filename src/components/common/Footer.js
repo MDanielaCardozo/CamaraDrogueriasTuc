@@ -34,7 +34,7 @@ const Footer = () => {
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className=" fw-bold mb-4 fs-5">Conócenos</h6>
               <p>
-                <Link to="/error" className="fs-6 text-reset subrayado hovMenu">
+                <Link to="/" className="fs-6 text-reset subrayado hovMenu">
                   Contactanos
                 </Link>
               </p>

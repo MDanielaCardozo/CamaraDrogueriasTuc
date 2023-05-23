@@ -142,10 +142,13 @@ const Home = () => {
                   </Col>
                   <Col lg={6} md={5} sm={12} className="texto">
                     <p className="parrafo">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
-                      esse veniam consequuntur modi eius repellendus eligendi
-                      eos cupiditate accusantium aperiam consequatur dolores.
+                      El socio gerente de Biostasys, Horacio Prette dijo "Le
+                      hicimos una invitación a la ministra Chahla porque este es
+                      un laboratorio que depende del trabajo conjunto del área
+                      de salud. Esta iniciativa surgió también a partir de una
+                      ley de exenciones impositiva que nos permitió hacer nuevas
+                      inversiones, que después se irán amortizando con el paso
+                      de los meses".
                     </p>
                   </Col>
                 </Row>
@@ -171,10 +174,10 @@ const Home = () => {
                   </Col>
                   <Col lg={6} md={5} sm={12} className="texto">
                     <p className="parrafo">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Ipsam tenetur in soluta facilis distinctio ipsa illum hic,
-                      esse veniam consequuntur modi eius repellendus eligendi
-                      eos cupiditate accusantium aperiam consequatur dolores.
+                      Gustavo Blanco, presidente de la Cámara Empresarial de
+                      Droguerías de Tucumán, aseguró que en la provincia no hay
+                      faltante de medicamentos pero si hubo aumentos
+                      significativos en los precios.
                     </p>
                   </Col>
                 </Row>
@@ -191,14 +194,13 @@ const Home = () => {
               Con el objeto de promover y concretar la defensa de los intereses
               del sector en forma armónica, en un marco de principios éticos y
               solidarios, un grupo conformado por importantes Empresas del
-              sector, decidió crear la Cámara Argentina de Droguerías y
-              Distribuidoras Especializadas. Somos un eslabón muy importante en
-              la cadena de comercialización y distribución, por lo tanto no
-              podemos carecer de representatividad ante los distintos
-              subsectores que componen el sistema. Somos una herramienta
-              fundamental de ayuda al sistema de salud en general, para
-              enfrentar las distintas enfermedades que padece cada hombre en
-              cualquier región de nuestro país. Somos colaboradores de
+              sector, decidió crear la Cámara de Droguerías de Tucumán. Somos un
+              eslabón muy importante en la cadena de comercialización y
+              distribución, por lo tanto no podemos carecer de representatividad
+              ante los distintos subsectores que componen el sistema. Somos una
+              herramienta fundamental de ayuda al sistema de salud en general,
+              para enfrentar las distintas enfermedades que padece cada hombre
+              en cualquier región de nuestro país. Somos colaboradores de
               confianza, especializados en facilitar el acceso a los más
               variados medicamentos de terapias especiales con el mayor
               profesionalismo. Garantizamos a la sociedad desde cada una de
@@ -227,7 +229,7 @@ const Home = () => {
             <p className="my-5 font">
               <strong className="tituloNos">Presidente: </strong>
               <a
-                href="http://"
+                href="http://drogueriaophicus.com.ar"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="subrayado tituloSer"
@@ -263,17 +265,17 @@ const Home = () => {
               Silvetti Ricardo Eugenio
               <br />
               <strong className="tituloNos">
-                Revisor de cuentas titular 1°:{" "}
+                Revisor de cuentas titular 1°:
               </strong>
               Prette Rubén Horacio
               <br />
               <strong className="tituloNos">
-                Revisor de cuentas titular 1°:{" "}
+                Revisor de cuentas titular 1°:
               </strong>
               Ciancaglini Mario Rubén
               <br />
               <strong className="tituloNos">
-                Revisor de cuentas titular 1°:{" "}
+                Revisor de cuentas titular 1°:
               </strong>
               Salvatore Enzo
               <br />

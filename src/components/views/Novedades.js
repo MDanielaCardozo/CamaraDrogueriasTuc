@@ -27,7 +27,7 @@ const Novedades = () => {
               className="d-flex justify-content-center"
             >
               <Card className="p-1 mb-3 cardNovedades">
-                <Card.Img variant="top" src={NewsUno} className="" />
+                <Card.Img variant="top" src={NewsUno} className="cardImgNov" />
                 <Card.Body className="text-center">
                   <Card.Title className="tituloSer my-3">
                     La Legislatura habilitará la eximición de Ingresos Brutos
@@ -43,7 +43,7 @@ const Novedades = () => {
                   </Card.Text>
                   <hr />
                   <div className="d-flex justify-content-between">
-                    <p>01/09/2020</p>
+                    <p className="text-secondary">01/09/2020</p>
                     <a
                       href="https://www.lagaceta.com.ar/nota/858589/actualidad/legislatura-habilitara-eximicion-ingresos-brutos-para-17-droguerias-tucumanas.html?utm_source=Whatsapp&utm_medium=Social&utm_campaign=botonmovil"
                       target="_blank"
@@ -63,7 +63,7 @@ const Novedades = () => {
               className="d-flex justify-content-center"
             >
               <Card className="p-1 mb-3 cardNovedades">
-                <Card.Img variant="top" src={NewsDos} className="" />
+                <Card.Img variant="top" src={NewsDos} className="cardImgNov" />
                 <Card.Body className="p-1 text-center">
                   <Card.Title className="tituloSer my-3">
                     En la Legislatura se espera una sesión cargada de temas,
@@ -79,7 +79,7 @@ const Novedades = () => {
                   </Card.Text>
                   <hr />
                   <div className="d-flex justify-content-between">
-                    <p>09/09/2020</p>
+                    <p className="text-secondary">09/09/2020</p>
                     <a
                       href="https://www.lagaceta.com.ar/nota/859676/actualidad/legislatura-se-espera-sesion-cargada-temas-chicanas-polemica.html?utm_source=Whatsapp&utm_medium=Social&utm_campaign=botonmovil"
                       target="_blank"
@@ -101,7 +101,7 @@ const Novedades = () => {
               className="d-flex justify-content-center"
             >
               <Card className="p-1 mb-3 cardNovedades">
-                <Card.Img variant="top" src={NewsTres} className="" />
+                <Card.Img variant="top" src={NewsTres} className="cardImgNov" />
                 <Card.Body className="p-1 text-center">
                   <Card.Title className="tituloSer my-3">
                     Tucumán está a un paso de contar con un laboratorio de
@@ -117,7 +117,7 @@ const Novedades = () => {
                   </Card.Text>
                   <hr />
                   <div className="d-flex justify-content-between">
-                    <p>24/06/2021</p>
+                    <p className="text-secondary">24/06/2021</p>
                     <a
                       href="https://www.lagaceta.com.ar/nota/899456/actualidad/tucuman-esta-paso-contar-laboratorio-medicamentos-citostaticos.html?utm_source=Whatsapp&utm_medium=Social&utm_campaign=botonmovil"
                       target="_blank"
@@ -137,7 +137,11 @@ const Novedades = () => {
               className="d-flex justify-content-center"
             >
               <Card className="p-1 mb-3 cardNovedades">
-                <Card.Img variant="top" src={NewsCuatro} className="" />
+                <Card.Img
+                  variant="top"
+                  src={NewsCuatro}
+                  className="cardImgNov"
+                />
                 <Card.Body className="p-1 text-center">
                   <Card.Title className="tituloSer my-3">
                     El Colegio de Abogados de Tucumán presentará la Tarjeta
@@ -153,7 +157,7 @@ const Novedades = () => {
                   </Card.Text>
                   <hr />
                   <div className="d-flex justify-content-between">
-                    <p>10/08/2021</p>
+                    <p className="text-secondary">10/08/2021</p>
                     <a
                       href="https://colegioabogadostuc.org.ar/el-colegio-de-abogados-de-tucuman-presentara-la-tarjeta-azul-el-servicio-de-salud-para-sus-matriculados/"
                       target="_blank"
@@ -175,25 +179,27 @@ const Novedades = () => {
               className="d-flex justify-content-center"
             >
               <Card className="p-1 mb-3 cardNovedades">
-                <Card.Img variant="top" src={NewsCuatro} className="" />
+                <Card.Img
+                  variant="top"
+                  src={NewsCuatro}
+                  className="cardImgNov"
+                />
                 <Card.Body className="p-1 text-center">
                   <Card.Title className="tituloSer my-3">
                     Tarjeta Azul - Servicio de Salud: Funcionamiento
                   </Card.Title>
                   <Card.Text>
-                    La TARJETA AZUL - SERVICIO DE SALUD abarca al matriculado y
+                    La Tarjeta azul - Servicio de salud abarca al matriculado y
                     a su grupo familiar. Para obtener el beneficio debe
                     presentar la misma. Solamente se emite una tarjeta a nombre
                     del matriculado (no se emiten tarjetas adicionales al grupo
-                    familiar) LOS DESCUENTOS NO SE SUPERPONEN A LOS DE LA OBRA
-                    SOCIAL QUE TUVIERA EL MATRICULADO En caso de que el
-                    matriculado posea obra social, deberá optar por Obra Social
-                    o Tarjeta Servicio de Salud.
+                    familiar) Los descuentos no se superpones a los de la obra
+                    social que tuviera el matriculado.
                     <br />
                   </Card.Text>
                   <hr />
                   <div className="d-flex justify-content-between">
-                    <p>24/08/2021</p>
+                    <p className="text-secondary">24/08/2021</p>
                     <a
                       href="https://colegioabogadostuc.org.ar/tarjeta-azul-servicio-de-salud-funcionamiento/"
                       target="_blank"
@@ -213,14 +219,18 @@ const Novedades = () => {
               className="d-flex justify-content-center"
             >
               <Card className="p-1 mb-3 cardNovedades">
-                <Card.Img variant="top" src={NewsCinco} className="" />
+                <Card.Img
+                  variant="top"
+                  src={NewsCinco}
+                  className="cardImgNov"
+                />
                 <Card.Body className="p-1 text-center">
                   <Card.Title className="tituloSer my-3">
-                    DESCUENTO EN MEDICAMENTOS PARA TODOS NUESTROS AFILIADOS |
+                    Descuento en medicamentos para todos nuestro afiliados |
                     Cámara empresarial de Droguerías de Tucumán
                   </Card.Title>
                   <Card.Text>
-                    DESCUENTO EN MEDICAMENTOS PARA TODOS NUESTROS AFILIADOS |
+                    Descuento en medicamentos para todos nuestro afiliados |
                     Cámara empresarial de Droguerías de Tucumán. ➡Medicamentos:
                     hasta 35% de descuento. Tu Caja pone a disposición una red
                     de farmacias adheridas, donde podrá acceder al medicamento
@@ -228,15 +238,15 @@ const Novedades = () => {
                   </Card.Text>
                   <hr />
                   <div className="d-flex justify-content-between">
-                    <p>21/08/2021</p>
+                    <p className="text-secondary">21/08/2021</p>
                     <a
-                    href="https://www.facebook.com/108242799266248/posts/4504192446337906/?sfnsn=scwspwa"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="tituloSer subrayado"
-                  >
-                    Ver mas ...
-                  </a>
+                      href="https://www.facebook.com/108242799266248/posts/4504192446337906/?sfnsn=scwspwa"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="tituloSer subrayado"
+                    >
+                      Ver mas ...
+                    </a>
                   </div>
                 </Card.Body>
               </Card>
@@ -250,7 +260,7 @@ const Novedades = () => {
               className="d-flex justify-content-center"
             >
               <Card className="p-1 mb-3 cardNovedades">
-                <Card.Img variant="top" src={NewsSeis} className="" />
+                <Card.Img variant="top" src={NewsSeis} className="cardImgNov" />
                 <Card.Body className="p-1 text-center">
                   <Card.Title className="tituloSer my-3">
                     La Asociación de Magistrados/as de Tucumán firmó dos nuevos
@@ -264,11 +274,10 @@ const Novedades = () => {
                     Gustavo Blanco Ojeda, Presidente de la Asociación Civil
                     Cámara Empresarial de Droguerías de Tucumán.
                     <br />
-                    
                   </Card.Text>
                   <hr />
                   <div className="d-flex justify-content-between">
-                    <p>20/09/2021</p>
+                    <p className="text-secondary">20/09/2021</p>
                     <a
                       href="https://magistradostucuman.org.ar/2021/09/la-asociacion-de-magistrados-as-de-tucuman-firmo-dos-nuevos-convenios/"
                       target="_blank"
@@ -288,7 +297,11 @@ const Novedades = () => {
               className="d-flex justify-content-center"
             >
               <Card className="p-1 mb-3 cardNovedades">
-                <Card.Img variant="top" src={NewsSiete} className="" />
+                <Card.Img
+                  variant="top"
+                  src={NewsSiete}
+                  className="cardImgNov"
+                />
                 <Card.Body className="p-1 text-center">
                   <Card.Title className="tituloSer my-3">
                     Laboratorios advierten un futuro faltante de medicamentos
@@ -304,15 +317,15 @@ const Novedades = () => {
                   </Card.Text>
                   <hr />
                   <div className="d-flex justify-content-between">
-                    <p>17/05/2023</p>
+                    <p className="text-secondary">17/05/2023</p>
                     <a
-                    href="https://losprimeros.tv/contenido/241672/laboratorios-advierten-un-futuro-faltante-de-medicamentos"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="tituloSer subrayado"
-                  >
-                    Ver mas ...
-                  </a>
+                      href="https://losprimeros.tv/contenido/241672/laboratorios-advierten-un-futuro-faltante-de-medicamentos"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="tituloSer subrayado"
+                    >
+                      Ver mas ...
+                    </a>
                   </div>
                 </Card.Body>
               </Card>

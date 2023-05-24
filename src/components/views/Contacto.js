@@ -27,7 +27,7 @@ const Contacto = () => {
                 className="iconoContacto mx-3"
               ></FontAwesomeIcon>
               <p className="textoC">
-                Ayacucho 830, San Miguel de Tucumán (4000). Argentina.
+                Gral Paz 320, San Miguel de Tucumán (4000). Argentina.
               </p>
             </div>
             <div className="d-flex my-4">

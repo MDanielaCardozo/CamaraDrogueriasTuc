@@ -10,7 +10,7 @@ import LogoDrogPlaza from "../../img/drogueriaPlazaO.png";
 import LogoDrogMacro from "../../img/drogueriaMacropharma.png";
 import LogoDrogTuSalud from "../../img/drogueriaTuSalud.jpg";
 import LogoDrogCosmo from "../../img/drogueriacosmopharma.jpg";
-
+import LogoMedInt from "../../img/logoMedicinaIntegral.jpg";
 const Socios = () => {
   return (
     <div className="bgColor py-5">
@@ -25,7 +25,7 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://drogueriaophicus.com.ar" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a href="https://drogueriaophicus.netlify.app/" target="_blank" rel="noopener noreferrer" className="subrayadoText">
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img variant="top" src={LogoDrog} className="imgCard" />
 
@@ -60,11 +60,11 @@ const Socios = () => {
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
-                    src={LogoDrogDos}
+                    src={LogoMedInt}
                     className="imgCard"
                   />
                   <Card.Body className="p-1 text-center">
-                    <Card.Text>ARGENTIA MEDICAL SRL</Card.Text>
+                    <Card.Text>MEDICINA INTEGRAL SRL</Card.Text>
                   </Card.Body>
                 </Card>
                 </a>
@@ -275,7 +275,7 @@ const Socios = () => {
                     className="imgCard"
                   />
                   <Card.Body className="p-1 text-center">
-                    <Card.Text>MEDICINA INTEGRAL SRL</Card.Text>
+                    <Card.Text>ARGENTIA MEDICAL SRL</Card.Text>
                   </Card.Body>
                 </Card>
                 </a>

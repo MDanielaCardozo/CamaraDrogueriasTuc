@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import MapaGoogle from "./MapaGoogle";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 const Contacto = () => {
   // const [nombre, setnombre] = useState("");
@@ -28,7 +29,12 @@ const Contacto = () => {
       .sendForm(EMAILJS_SERVICE, EMAILJS_TEMPLATE, refForm.current, EMAILJS_PUBLICKEY)
       .then((result) => {
         console.log(result.text);
-        alert("El mensaje fue enviado exitosamente");
+        refForm.current.reset();
+        Swal.fire(
+          'Mensaje enviado',
+          'El mensaje será respondido a la brevedad',
+          'success'
+        );
       })
       .catch((error) => {
         console.log(error.text);

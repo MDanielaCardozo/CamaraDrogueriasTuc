@@ -159,6 +159,11 @@
     font-weight: 600;
 }
 
+.fotoAutoridades {
+    width: 100%;
+    border-radius: 5px;
+}
+
 
 @media all and (min-width: 300px) and (max-width: 690px) {
     .carouselInfo {
@@ -189,15 +194,21 @@
     }
 }
 
-@media all and (min-width: 691px) and (max-width: 768px) {
+@media all and (min-width: 691px) and (max-width: 1068px) {
     .carouselInfo {
         width: 100%;
         height: auto;
     }
 
     .parrafo {
-        margin-bottom: 15px;
+        margin-bottom: 35px;
         margin-top: 40px;
     }
-
 }
+
+@media all and (min-width: 1068px) and (max-width: 2068px) {
+    .fotoAutoridades {
+        width: 80%; 
+    }
+}
+

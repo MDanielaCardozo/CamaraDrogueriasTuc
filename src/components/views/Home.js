@@ -10,6 +10,7 @@ import {
   faQuoteLeft,
 } from "@fortawesome/free-solid-svg-icons";
 import AvatInst from "../../img/avatInst.jpg";
+import Autorid from "../../img/autoridadesCamaraDrog.jpg";
 
 const Home = () => {
   return (
@@ -190,7 +191,8 @@ const Home = () => {
         <Row>
           <Col lg={8} md={12}>
             <h1 className="tituloNos mb-3 fontW">Nosotros</h1>
-            <p className="my-5 me-5 p-2">
+            <hr />
+            <p className="my-5 me-lg-5 m p-2">
               Con el objeto de promover y concretar la defensa de los intereses
               del sector en forma armónica, en un marco de principios éticos y
               solidarios, un grupo conformado por importantes Empresas del
@@ -224,7 +226,7 @@ const Home = () => {
             </p>
           </Col>
           <Col lg={4} md={12}>
-            <h4 className="tituloNos">Comisión directiva</h4>
+            <h4 className="tituloNos mt-3">Comisión directiva</h4>
             <hr />
             <p className="my-5 font">
               <strong className="tituloNos">Presidente: </strong>
@@ -280,6 +282,11 @@ const Home = () => {
               Salvatore Enzo
               <br />
             </p>
+          </Col>
+          <Col lg={12} md={12}>
+          <div className="m-lg-5 imgAuto text-center">
+          <img src={Autorid} alt="Autoridades y socios de la Cámara" className="fotoAutoridades"/>
+          </div>
           </Col>
         </Row>
       </article>

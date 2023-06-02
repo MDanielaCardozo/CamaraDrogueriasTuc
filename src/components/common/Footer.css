@@ -17,22 +17,22 @@
   background-color: rgb(0, 0, 0);
 } */
 
-@media screen and (min-width: 390px) and (max-width: 767px) {
+@media all and (min-width: 330px) and (max-width: 767px) {
     .logoImg {
       width: 290px;
     }
   }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media all and (min-width: 768px) and (max-width: 991px) {
   .logoImg {
     width: 300px;
     padding-right: 70px;
   }
 }
 
-@media screen and (min-width: 992px)  {
+@media all and (min-width: 992px)  {
     .logoImg {
-      width: 350px;
+      width: 390px;
       padding-right: 70px;
     }
   }

@@ -79,7 +79,7 @@ const Contacto = () => {
                 <Form.Label className="">Nombre Completo*</Form.Label>
                 <Form.Control
                   type="text"
-                  placeholder="entre (8 y 40) caracteres."
+                  placeholder="entre (4 y 40) caracteres."
                   name="from_name"
                   required
                   // onChange={(e) => setnombre(e.target.value.trim())}

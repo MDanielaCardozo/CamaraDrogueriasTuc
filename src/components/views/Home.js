@@ -229,7 +229,7 @@ const Home = () => {
             <p className="my-5 font">
               <strong className="tituloNos">Presidente: </strong>
               <a
-                href="http://drogueriaophicus.com.ar"
+                href="https://drogueriaophicus.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="subrayado tituloSer"
@@ -241,13 +241,13 @@ const Home = () => {
               Manuel Francisco
               <br />
               <strong className="tituloNos">Secretario: </strong> Echeverria
-              Julio César
+              Julio César <strong>X</strong>
               <br />
               <strong className="tituloNos">Tesorero: </strong> Gambarte Flavia
               Lorena
               <br />
               <strong className="tituloNos">Vocal Titular 1°: </strong> Gomez
-              Mario Rolando
+              Mario Rolando <strong>X</strong>
               <br />
               <strong className="tituloNos">Vocal Titular 2°: </strong>
               Salvatore Enzo
@@ -262,7 +262,7 @@ const Home = () => {
               S. Bonata
               <br />
               <strong className="tituloNos">Vocal Suplente 2°: </strong>
-              Silvetti Ricardo Eugenio
+              Silveti Ricardo Eugenio
               <br />
               <strong className="tituloNos">
                 Revisor de cuentas titular 1°:

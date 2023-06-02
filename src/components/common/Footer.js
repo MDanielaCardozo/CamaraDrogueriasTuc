@@ -7,7 +7,7 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import Logo from "../../img/logoTransp.png";
+import Logo from "../../img/logoNewCamaraDrog.png";
 import "../common/Footer.css";
 
 const Footer = () => {
@@ -34,7 +34,7 @@ const Footer = () => {
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className=" fw-bold mb-4 fs-5">Conócenos</h6>
               <p>
-                <Link to="/" className="fs-6 text-reset subrayado hovMenu">
+                <Link to="/contacto" className="fs-6 text-reset subrayado hovMenu">
                   Contactanos
                 </Link>
               </p>

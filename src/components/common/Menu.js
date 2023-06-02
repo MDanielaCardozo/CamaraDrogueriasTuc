@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink } from "react-router-dom";
 import "./Menu.css";
-import Logo from "../../img/logoTransp.png";
+import Logo from "../../img/logoNewCamaraDrog.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 
@@ -20,8 +20,8 @@ function CollapsibleExample() {
       variant="dark"
     >
       <Container>
-        <Navbar.Brand as={Link} to="/">
-          <img src={Logo} alt="" width="180px" height="auto" className="py-2" />
+        <Navbar.Brand as={Link} onClick={() => setExpanded(false)} to="/">
+          <img src={Logo} alt="" width="220px" height="auto" className="py-2" />
         </Navbar.Brand>
         <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

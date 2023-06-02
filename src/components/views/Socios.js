@@ -2,7 +2,7 @@ import React from "react";
 import "../views/Socios.css";
 import { Card, Col, Row } from "react-bootstrap";
 import LogoPhar from "../../img/PharmaTukLogo.png";
-import LogoDrog from "../../img/ophicusLogoHome.png";
+import LogoDrog from "../../img/logoOphicusSrl.png";
 import LogoDrogDos from "../../img/logoDrogueriaDos.jpg";
 import LogoOnc from "../../img/logoOncofarma.jpg";
 import LogoDrogFg from "../../img/logo-CamaraFG.jpg";
@@ -19,22 +19,27 @@ const Socios = () => {
         <hr />
         <div>
           <Row className="my-5">
+            
             <Col
               sm={12}
               md={6}
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="https://drogueriaophicus.netlify.app/" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
                 <Card className="p-1 mb-3 cardSocios">
-                  <Card.Img variant="top" src={LogoDrog} className="imgCard" />
-
+                  <Card.Img
+                    variant="top"
+                    src={LogoMedInt}
+                    className="imgCard"
+                  />
                   <Card.Body className="p-1 text-center">
-                    <Card.Text>OPHICUS SRL</Card.Text>
+                    <Card.Text>MEDICINA INTEGRAL SRL</Card.Text>
                   </Card.Body>
                 </Card>
                 </a>
             </Col>
+            
             <Col
               sm={12}
               md={6}
@@ -56,15 +61,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a href="https://drogueriaophicus.netlify.app/" target="_blank" rel="noopener noreferrer" className="subrayadoText">
                 <Card className="p-1 mb-3 cardSocios">
-                  <Card.Img
-                    variant="top"
-                    src={LogoMedInt}
-                    className="imgCard"
-                  />
+                  <Card.Img variant="top" src={LogoDrog} className="imgCard" />
+
                   <Card.Body className="p-1 text-center">
-                    <Card.Text>MEDICINA INTEGRAL SRL</Card.Text>
+                    <Card.Text>OPHICUS SRL</Card.Text>
                   </Card.Body>
                 </Card>
                 </a>

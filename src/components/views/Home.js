@@ -284,6 +284,7 @@ const Home = () => {
             </p>
           </Col>
           <Col lg={12} md={12}>
+            <hr />
           <div className="m-lg-5 imgAuto text-center">
           <img src={Autorid} alt="Autoridades y socios de la Cámara" className="fotoAutoridades"/>
           </div>

@@ -266,20 +266,11 @@ const Home = () => {
               <strong className="tituloNos">Vocal Suplente 2°: </strong>
               Silveti Ricardo Eugenio
               <br />
-              <strong className="tituloNos">
-                Revisor de cuentas titular 1°:
-              </strong>
-              Prette Rubén Horacio
+              <strong className="tituloNos">Revisor de cuentas titular 1°: </strong>Prette Rubén Horacio
               <br />
-              <strong className="tituloNos">
-                Revisor de cuentas titular 1°:
-              </strong>
-              Ciancaglini Mario Rubén
+              <strong className="tituloNos">Revisor de cuentas titular 1°: </strong>Ciancaglini Mario Rubén
               <br />
-              <strong className="tituloNos">
-                Revisor de cuentas titular 1°:
-              </strong>
-              Salvatore Enzo
+              <strong className="tituloNos">Revisor de cuentas titular 1°: </strong>Salvatore Enzo
               <br />
             </p>
           </Col>

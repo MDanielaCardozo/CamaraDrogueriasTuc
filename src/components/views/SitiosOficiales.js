@@ -65,7 +65,12 @@ const SitiosOficiales = () => {
               </a>
             </Col>
           </Row>
-          <Row className="my-5">
+          
+        </div>
+        <h2 className="text-secondary">CONVENIOS DE INTERCAMBIO DE INFORMACION OFICIAL</h2>
+        <hr />
+        <h4 className="text-secondary">ASESORAMIENTO RECIPROCO CON:</h4>
+        <Row className="my-5">
             <Col lg={3} className="d-flex justify-content-center">
               <a
                 href="https://magistradostucuman.org.ar/"
@@ -93,7 +98,6 @@ const SitiosOficiales = () => {
               </a>
             </Col>
           </Row>
-        </div>
       </article>
     </div>
   );

@@ -144,7 +144,7 @@ const Socios = () => {
                     className="imgCard"
                   />
                   <Card.Body className="p-1 text-center">
-                    <Card.Text>Drogueria traful srl</Card.Text>
+                    <Card.Text>DROGUERIA TRAFUL SRL</Card.Text>
                   </Card.Body>
                 </Card>
                 </a>
@@ -163,7 +163,7 @@ const Socios = () => {
                     className="imgCard"
                   />
                   <Card.Body className="p-1 text-center">
-                    <Card.Text>Drogueria victoria S.A.S</Card.Text>
+                    <Card.Text>DROGUERIA VICTORIA S.A.S</Card.Text>
                   </Card.Body>
                 </Card>
                 </a>
@@ -184,7 +184,7 @@ const Socios = () => {
                     className="imgCard"
                   />
                   <Card.Body className="p-1 text-center">
-                    <Card.Text>Martínez Duloc Andrea Karina</Card.Text>
+                    <Card.Text>DROGUERIA DISTRIBUIDORA TUCUMAN</Card.Text>
                   </Card.Body>
                 </Card>
               </a>
@@ -203,7 +203,7 @@ const Socios = () => {
                     className="imgCard"
                   />
                   <Card.Body className="p-1 text-center">
-                    <Card.Text>Echevarría Julio Cesar</Card.Text>
+                    <Card.Text>DROGUERIA EL PARQUE</Card.Text>
                   </Card.Body>
                 </Card>
                 </a>
@@ -218,7 +218,7 @@ const Socios = () => {
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img variant="top" src={LogoOnc} className="imgCard" />
                   <Card.Body className="p-1 text-center">
-                    <Card.Text>Droguería Oncofarma SRL</Card.Text>
+                    <Card.Text>DROGUERIA ONCOFARMA SRL</Card.Text>
                   </Card.Body>
                 </Card>
                 </a>
@@ -237,7 +237,7 @@ const Socios = () => {
                     className="imgCard"
                   />
                   <Card.Body className="p-1 text-center">
-                    <Card.Text>Macropharma S.A.</Card.Text>
+                    <Card.Text>MACROPHARMA S.A.</Card.Text>
                   </Card.Body>
                 </Card>
                 </a>
@@ -337,6 +337,44 @@ const Socios = () => {
                   />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>DROGUERÍA ÁRNICA S.A.S.</Card.Text>
+                  </Card.Body>
+                </Card>
+                </a>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <a href="https://cosmopharma.com.ar/" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
+                  <Card.Body className="p-1 text-center">
+                    <Card.Text>DROGUERIA GüEMES</Card.Text>
+                  </Card.Body>
+                </Card>
+                </a>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <a href="https://cosmopharma.com.ar/" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
+                  <Card.Body className="p-1 text-center">
+                    <Card.Text>DROGUERIA PHARMA ESTETIC</Card.Text>
                   </Card.Body>
                 </Card>
                 </a>

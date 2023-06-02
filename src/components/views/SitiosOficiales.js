@@ -7,6 +7,9 @@ import SuperIn from "../../img/logoSuper.jpg";
 import MinTuc from "../../img/logoMinisTuc.jpg";
 import CajaPrevis from "../../img/logoCajaDePrevision.jpg";
 import Amt from "../../img/logoAmt.png";
+import ColAbog from "../../img/colegioAbogadosTuc.jpg";
+import CircOdont from "../../img/logoCirculoOdont.png";
+import ColProc from "../../img/colegioProcuradoresTuc.jpg";
 
 const SitiosOficiales = () => {
   return (
@@ -69,7 +72,7 @@ const SitiosOficiales = () => {
         </div>
         <h2 className="text-secondary">CONVENIOS DE INTERCAMBIO DE INFORMACION OFICIAL</h2>
         <hr />
-        <h4 className="text-secondary">ASESORAMIENTO RECIPROCO CON:</h4>
+        <h4 className="text-secondary">ASESORAMIENTO TECNICO JURIDICO:</h4>
         <Row className="my-5">
             <Col lg={3} className="d-flex justify-content-center">
               <a
@@ -92,6 +95,45 @@ const SitiosOficiales = () => {
               >
                 <img
                   src={CajaPrevis}
+                  alt="Logo de la Caja de previsión y seguridad social de abogados y procuradores de Tucumán"
+                  className="imgMinis"
+                />
+              </a>
+            </Col>
+            <Col lg={3} className="d-flex justify-content-center">
+              <a
+                href="https://cottucumano.com.ar/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={CircOdont}
+                  alt="Logo de la Caja de previsión y seguridad social de abogados y procuradores de Tucumán"
+                  className="imgMinis"
+                />
+              </a>
+            </Col>
+            <Col lg={3} className="text-center">
+              <a
+                href="https://colegioabogadostuc.org.ar/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={ColAbog}
+                  alt="Logo de la Caja de previsión y seguridad social de abogados y procuradores de Tucumán"
+                  className="w-50 p-2"
+                />
+              </a>
+            </Col>
+            <Col lg={3} className="d-flex justify-content-center">
+              <a
+                href="https://www.facebook.com/procuradorestucuman/?locale=es_LA"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={ColProc}
                   alt="Logo de la Caja de previsión y seguridad social de abogados y procuradores de Tucumán"
                   className="imgMinis"
                 />

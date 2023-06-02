@@ -243,13 +243,13 @@ const Home = () => {
               Manuel Francisco
               <br />
               <strong className="tituloNos">Secretario: </strong> Echeverria
-              Julio César <strong>X</strong>
+              Julio César <strong>†</strong>
               <br />
               <strong className="tituloNos">Tesorero: </strong> Gambarte Flavia
               Lorena
               <br />
               <strong className="tituloNos">Vocal Titular 1°: </strong> Gomez
-              Mario Rolando <strong>X</strong>
+              Mario Rolando <strong>†</strong>
               <br />
               <strong className="tituloNos">Vocal Titular 2°: </strong>
               Salvatore Enzo
@@ -261,7 +261,7 @@ const Home = () => {
               Diaz Elias Juan
               <br />
               <strong className="tituloNos">Vocal Suplente 1°: </strong> Lorena
-              S. Bonata
+              S. Bonatas
               <br />
               <strong className="tituloNos">Vocal Suplente 2°: </strong>
               Silveti Ricardo Eugenio

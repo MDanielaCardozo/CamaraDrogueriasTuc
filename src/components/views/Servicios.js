@@ -53,7 +53,7 @@ const Servicios = () => {
                 <Card.Img variant="top" src={AseReg} className="imgCard" />
                 <Card.Body className="p-1 text-center">
                   <Card.Text className="tituloSer">
-                    ASESORAMIENTO REGULADOR
+                    ASESORAMIENTO REGULADOR TECNICO JURIDICO
                   </Card.Text>
                 </Card.Body>
               </Card>

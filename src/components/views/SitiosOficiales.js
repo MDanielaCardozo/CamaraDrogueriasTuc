@@ -72,7 +72,7 @@ const SitiosOficiales = () => {
         </div>
         <h2 className="text-secondary">CONVENIOS DE INTERCAMBIO DE INFORMACION OFICIAL</h2>
         <hr />
-        <h4 className="text-secondary">ASESORAMIENTO TECNICO JURIDICO:</h4>
+        <h4 className="text-secondary">ASESORAMIENTO RECIPROCO CON:</h4>
         <Row className="my-5">
             <Col lg={3} className="d-flex justify-content-center">
               <a

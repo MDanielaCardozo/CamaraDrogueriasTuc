@@ -163,6 +163,11 @@
     width: 100%;
 }
 
+ul li::marker {
+    font-size: 22px;
+    color: rgba(18, 66, 223, 0.781);
+}
+
 
 @media all and (min-width: 300px) and (max-width: 690px) {
     .carouselInfo {

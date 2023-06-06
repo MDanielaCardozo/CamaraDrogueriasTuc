@@ -248,7 +248,7 @@ const Home = () => {
               <strong className="tituloNos">Tesorero: </strong> Gambarte Flavia
               Lorena
               <br />
-              <strong className="tituloNos">Vocal Titular 1°: </strong> Gomez
+              <strong className="tituloNos">Vocal Titular 1°: </strong> Gómez
               Mario Rolando <strong>†</strong>
               <br />
               <strong className="tituloNos">Vocal Titular 2°: </strong>
@@ -258,9 +258,9 @@ const Home = () => {
               Gustavo Ariel Juan
               <br />
               <strong className="tituloNos">Vocal Titular 4°: </strong>Plaza
-              Diaz Elias Juan
+              Díaz Elias Juan
               <br />
-              <strong className="tituloNos">Vocal Suplente 1°: </strong> Bonata Silvia Lorena
+              <strong className="tituloNos">Vocal Suplente 1°: </strong> Bonatas Silvia Lorena
               <br />
               <strong className="tituloNos">Vocal Suplente 2°: </strong>
               Silveti Ricardo Eugenio

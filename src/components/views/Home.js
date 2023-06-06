@@ -234,7 +234,7 @@ const Home = () => {
                 href="https://drogueriaophicus.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="subrayado tituloSer"
+                className="tituloSer text-decoration-none"
               >
                 Blanco Ojeda Gustavo Ezequiel
               </a>
@@ -260,8 +260,7 @@ const Home = () => {
               <strong className="tituloNos">Vocal Titular 4°: </strong>Plaza
               Diaz Elias Juan
               <br />
-              <strong className="tituloNos">Vocal Suplente 1°: </strong> Lorena
-              S. Bonatas
+              <strong className="tituloNos">Vocal Suplente 1°: </strong> Bonata Silvia Lorena
               <br />
               <strong className="tituloNos">Vocal Suplente 2°: </strong>
               Silveti Ricardo Eugenio

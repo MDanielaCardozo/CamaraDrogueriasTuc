@@ -35,7 +35,6 @@ function CollapsibleExample() {
             <NavLink onClick={() => setExpanded(false)} to="/novedades" className="nav-item nav-link hovMenu boton">NOVEDADES</NavLink>
             <NavLink onClick={() => setExpanded(false)} to="/contacto" className="nav-item nav-link hovMenu boton"> CONTACTO</NavLink>
           </Nav>
-          <Nav></Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

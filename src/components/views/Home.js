@@ -278,6 +278,7 @@ const Home = () => {
           <div className="m-lg-5 imgAuto text-center">
           <img src={Autorid} alt="Autoridades y socios de la Cámara" className="fotoAutoridades"/>
           </div>
+          <hr />
           </Col>
         </Row>
       </article>

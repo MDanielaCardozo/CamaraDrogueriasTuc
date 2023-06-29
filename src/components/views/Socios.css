@@ -14,7 +14,7 @@
 
 .imgCard {
   width: 100%;
-  max-height: 250px;
+  max-height: 200px;
   height: 75%;
   transition: 0.5s;
   object-fit: cover;
@@ -39,5 +39,10 @@
     width: auto;
     height: 280px;
     overflow: hidden;
+  }
+
+  .imgCard {
+    min-height: 120px;
+    max-height: 150px;
   }
 }

@@ -19,14 +19,18 @@ const Socios = () => {
         <hr />
         <div>
           <Row className="my-5">
-            
             <Col
               sm={12}
               md={6}
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -37,23 +41,27 @@ const Socios = () => {
                     <Card.Text>MEDICINA INTEGRAL SRL</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
-            
             <Col
               sm={12}
               md={6}
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="https://drogueriapharmatuk.com.ar/" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="https://drogueriapharmatuk.com.ar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img variant="top" src={LogoPhar} className="imgCard" />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>PHARMATUK SRL</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
             <Col
               sm={12}
@@ -61,7 +69,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="https://drogueriaophicus.netlify.app/" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="https://drogueriaophicus.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img variant="top" src={LogoDrog} className="imgCard" />
 
@@ -69,7 +82,7 @@ const Socios = () => {
                     <Card.Text>OPHICUS SRL</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
             <Col
               sm={12}
@@ -77,66 +90,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
-                <Card className="p-1 mb-3 cardSocios">
-                  <Card.Img
-                    variant="top"
-                    src={LogoDrogFg}
-                    className="imgCard"
-                  />
-                  <Card.Body className="p-1 text-center">
-                    <Card.Text>DROGUERIA FG</Card.Text>
-                  </Card.Body>
-                </Card>
-                </a>
-            </Col>
-          </Row>
-          <Row className="mb-5">
-            <Col
-              sm={12}
-              md={6}
-              lg={3}
-              className="d-flex justify-content-center"
-            >
-              <a href="https://www.drogueriaplazaona.com.ar/" target="_blank" rel="noopener noreferrer" className="subrayadoText">
-                <Card className="p-1 mb-3 cardSocios">
-                  <Card.Img
-                    variant="top"
-                    src={LogoDrogPlaza}
-                    className="imgCard"
-                  />
-                  <Card.Body className="p-1 text-center">
-                    <Card.Text>PLAZA OÑA</Card.Text>
-                  </Card.Body>
-                </Card>
-                </a>
-            </Col>
-            <Col
-              sm={12}
-              md={6}
-              lg={3}
-              className="d-flex justify-content-center"
-            >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
-                <Card className="p-1 mb-3 cardSocios">
-                  <Card.Img
-                    variant="top"
-                    src={LogoDrogDos}
-                    className="imgCard"
-                  />
-                  <Card.Body className="p-1 text-center">
-                    <Card.Text>NOVAMED</Card.Text>
-                  </Card.Body>
-                </Card>
-                </a>
-            </Col>
-            <Col
-              sm={12}
-              md={6}
-              lg={3}
-              className="d-flex justify-content-center"
-            >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -147,7 +106,33 @@ const Socios = () => {
                     <Card.Text>DROGUERIA TRAFUL SRL</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
+            </Col>
+          </Row>
+          <Row className="mb-5">
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <a
+                href="https://www.drogueriaplazaona.com.ar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogPlaza}
+                    className="imgCard"
+                  />
+                  <Card.Body className="p-1 text-center">
+                    <Card.Text>PLAZA OÑA</Card.Text>
+                  </Card.Body>
+                </Card>
+              </a>
             </Col>
             <Col
               sm={12}
@@ -155,7 +140,61 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogDos}
+                    className="imgCard"
+                  />
+                  <Card.Body className="p-1 text-center">
+                    <Card.Text>NOVAMED</Card.Text>
+                  </Card.Body>
+                </Card>
+              </a>
+            </Col>
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
+                <Card className="p-1 mb-3 cardSocios">
+                  <Card.Img
+                    variant="top"
+                    src={LogoDrogFg}
+                    className="imgCard"
+                  />
+                  <Card.Body className="p-1 text-center">
+                    <Card.Text>DROGUERIA FG</Card.Text>
+                  </Card.Body>
+                </Card>
+              </a>
+            </Col>
+
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              className="d-flex justify-content-center"
+            >
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -166,7 +205,7 @@ const Socios = () => {
                     <Card.Text>DROGUERIA VICTORIA S.A.S</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
           </Row>
           <Row className="mb-5">
@@ -176,7 +215,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -195,7 +239,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -206,7 +255,7 @@ const Socios = () => {
                     <Card.Text>DROGUERIA EL PARQUE</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
             <Col
               sm={12}
@@ -214,14 +263,19 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img variant="top" src={LogoOnc} className="imgCard" />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>DROGUERIA ONCOFARMA SRL</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
             <Col
               sm={12}
@@ -229,7 +283,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -240,7 +299,7 @@ const Socios = () => {
                     <Card.Text>MACROPHARMA S.A.</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
           </Row>
           <Row className="mb-5">
@@ -250,7 +309,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -261,7 +325,7 @@ const Socios = () => {
                     <Card.Text>DROGUERIA SAN JUAN SRL</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
             <Col
               sm={12}
@@ -269,7 +333,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -280,7 +349,7 @@ const Socios = () => {
                     <Card.Text>ARGENTIA MEDICAL SRL</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
             <Col
               sm={12}
@@ -288,7 +357,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -299,7 +373,7 @@ const Socios = () => {
                     <Card.Text>DROGUERIA DEL NORTE</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
             <Col
               sm={12}
@@ -307,7 +381,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -318,7 +397,7 @@ const Socios = () => {
                     <Card.Text>TU SALUD S.R.L</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
           </Row>
           <Row className="mb-5">
@@ -328,7 +407,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -339,7 +423,7 @@ const Socios = () => {
                     <Card.Text>DROGUERÍA ÁRNICA S.A.S.</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
             <Col
               sm={12}
@@ -347,7 +431,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="https://cosmopharma.com.ar/" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="https://cosmopharma.com.ar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -358,7 +447,7 @@ const Socios = () => {
                     <Card.Text>DROGUERIA GüEMES</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
             <Col
               sm={12}
@@ -366,7 +455,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="https://cosmopharma.com.ar/" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="https://cosmopharma.com.ar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -377,7 +471,7 @@ const Socios = () => {
                     <Card.Text>DROGUERIA PHARMA ESTETIC</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
             <Col
               sm={12}
@@ -385,7 +479,12 @@ const Socios = () => {
               lg={3}
               className="d-flex justify-content-center"
             >
-              <a href="https://cosmopharma.com.ar/" target="_blank" rel="noopener noreferrer" className="subrayadoText">
+              <a
+                href="https://cosmopharma.com.ar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="subrayadoText"
+              >
                 <Card className="p-1 mb-3 cardSocios">
                   <Card.Img
                     variant="top"
@@ -396,7 +495,7 @@ const Socios = () => {
                     <Card.Text>COSMO PHARMA SRL</Card.Text>
                   </Card.Body>
                 </Card>
-                </a>
+              </a>
             </Col>
           </Row>
         </div>

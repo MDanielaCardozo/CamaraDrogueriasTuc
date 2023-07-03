@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 // import { useState } from "react";
 import "../views/Contacto.css";
 import { Row, Col, Form, Button } from "react-bootstrap";
@@ -15,6 +15,10 @@ import Swal from "sweetalert2";
 const Contacto = () => {
   // const [nombre, setnombre] = useState("");
   // const [email, setemail] = useState("");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const refForm = useRef();
 

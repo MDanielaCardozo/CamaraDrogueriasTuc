@@ -11,8 +11,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import AvatInst from "../../img/avatInst.jpg";
 import Autorid from "../../img/autoridadesCamaraDrog.jpg";
+import { useEffect } from "react";
 
 const Home = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main className="bgColor">
       <section className="CarouselPpal">

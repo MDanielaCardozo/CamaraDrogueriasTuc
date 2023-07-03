@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Row, Col, Card } from "react-bootstrap";
 import Semin from "../../img/seminariosEd.jpeg";
 import AseCont from "../../img/asesorCont.jpeg";
@@ -6,6 +6,11 @@ import AseReg from "../../img/asesorReg.jpeg";
 import "../../components/views/Home.css";
 
 const Servicios = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bgColor py-5">
       <article className="container sitiosBg py-5">
@@ -20,7 +25,7 @@ const Servicios = () => {
               className="d-flex justify-content-center"
             >
               <Card className="p-1 mb-3 cardSocios">
-                <Card.Img variant="top" src={Semin} className="imgCard" />
+                <Card.Img variant="top" src={Semin} className="imgCardServ" />
                 <Card.Body className="p-1 text-center">
                   <Card.Text className="tituloSer">
                     SEMINARIOS EDUCATIVOS
@@ -35,7 +40,7 @@ const Servicios = () => {
               className="d-flex justify-content-center"
             >
               <Card className="p-1 mb-3 cardSocios">
-                <Card.Img variant="top" src={AseCont} className="imgCard" />
+                <Card.Img variant="top" src={AseCont} className="imgCardServ" />
                 <Card.Body className="p-1 text-center">
                   <Card.Text className="tituloSer">
                     ASESORAMIENTO CONTABLE
@@ -50,7 +55,7 @@ const Servicios = () => {
               className="d-flex justify-content-center"
             >
               <Card className="p-1 mb-3 cardSocios">
-                <Card.Img variant="top" src={AseReg} className="imgCard" />
+                <Card.Img variant="top" src={AseReg} className="imgCardServ" />
                 <Card.Body className="p-1 text-center">
                   <Card.Text className="tituloSer">
                     ASESORAMIENTO REGULADOR TECNICO JURIDICO

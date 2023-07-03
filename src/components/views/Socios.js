@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../views/Socios.css";
 import { Card, Col, Row } from "react-bootstrap";
 import LogoPhar from "../../img/PharmaTukLogo.png";
@@ -12,6 +12,11 @@ import LogoDrogTuSalud from "../../img/drogueriaTuSalud.jpg";
 import LogoDrogCosmo from "../../img/drogueriacosmopharma.jpg";
 import LogoMedInt from "../../img/logoMedicinaIntegral.jpg";
 const Socios = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bgColor py-5">
       <article className="container sociosArt py-4">

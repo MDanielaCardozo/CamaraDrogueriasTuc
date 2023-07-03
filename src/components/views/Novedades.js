@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Row, Col, Card } from "react-bootstrap";
 import "../views/Novedades.css";
 import NewsUno from "../../img/newsUno.webp";
@@ -10,6 +10,11 @@ import NewsSeis from "../../img/newsSeis.jpeg";
 import NewsSiete from "../../img/newsSiete.webp";
 
 const Novedades = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bgColor py-5">
       <article className="container sitiosBg py-5">

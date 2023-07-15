@@ -9,6 +9,7 @@ import AreaSocios from './components/views/AreaSocios';
 import Contacto from './components/views/Contacto';
 import Menu from './components/common/Menu';
 import Footer from './components/common/Footer';
+import Error from './components/views/Error';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <Route exact path='/novedades' element={<Novedades></Novedades>}></Route>
         <Route exact path='/areaSocios' element={<AreaSocios></AreaSocios>}></Route>
         <Route exact path='/contacto' element={<Contacto></Contacto>}></Route>
+        <Route path='*' element={<Error></Error>}></Route>
       </Routes>
       <Footer></Footer>
       </BrowserRouter>

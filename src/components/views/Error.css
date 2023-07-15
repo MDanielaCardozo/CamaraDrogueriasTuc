@@ -1,0 +1,29 @@
+.page404 img {
+    width: 100%;
+}
+
+.pageError {
+    background: url('../../img/error404PagCamara.gif') no-repeat center center/cover;
+    height: 450px;
+}
+
+@media all and (min-width: 300px) and (max-width: 767px){
+    .pageError404 {
+        display: none;
+    }
+
+    .pageError {
+        height: 270px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 3500px){
+    .pageErrorBottom {
+        display: none;
+    }
+
+    .pageError {
+        height: 540px;
+    }
+}
+

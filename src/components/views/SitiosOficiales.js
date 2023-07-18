@@ -122,7 +122,7 @@ const SitiosOficiales = () => {
                 <img
                   src={ColAbog}
                   alt="Logo de la Caja de previsión y seguridad social de abogados y procuradores de Tucumán"
-                  className="w-50 p-2 mb-3"
+                  className=" p-2 mb-3 imgAbog"
                 />
               </a>
             </Col>

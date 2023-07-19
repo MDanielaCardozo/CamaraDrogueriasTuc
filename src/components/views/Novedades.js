@@ -24,12 +24,12 @@ const Novedades = () => {
           Conocé nuestras últimas noticias y agenda de actividades.
         </h5>
         <div>
-          <Row className="my-5">
+          <Row>
             <Col
               lg={6}
               md={6}
               sm={12}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-5"
             >
               <Card className="p-1 mb-3 cardNovedades">
                 <Card.Img variant="top" src={NewsUno} className="cardImgNov" />
@@ -65,7 +65,7 @@ const Novedades = () => {
               lg={5}
               md={6}
               sm={12}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-5"
             >
               <Card className="p-1 mb-3 cardNovedades">
                 <Card.Img variant="top" src={NewsDos} className="cardImgNov" />
@@ -98,12 +98,12 @@ const Novedades = () => {
               </Card>
             </Col>
           </Row>
-          <Row className="my-5">
+          <Row>
             <Col
               lg={6}
               md={6}
               sm={12}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-5"
             >
               <Card className="p-1 mb-3 cardNovedades">
                 <Card.Img variant="top" src={NewsTres} className="cardImgNov" />
@@ -139,7 +139,7 @@ const Novedades = () => {
               lg={5}
               md={6}
               sm={12}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-5"
             >
               <Card className="p-1 mb-3 cardNovedades">
                 <Card.Img
@@ -176,12 +176,12 @@ const Novedades = () => {
               </Card>
             </Col>
           </Row>
-          <Row className="my-5">
+          <Row>
             <Col
               lg={6}
               md={6}
               sm={12}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-5"
             >
               <Card className="p-1 mb-3 cardNovedades">
                 <Card.Img
@@ -221,7 +221,7 @@ const Novedades = () => {
               lg={5}
               md={6}
               sm={12}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-5"
             >
               <Card className="p-1 mb-3 cardNovedades">
                 <Card.Img
@@ -257,12 +257,12 @@ const Novedades = () => {
               </Card>
             </Col>
           </Row>
-          <Row className="my-5">
+          <Row>
             <Col
               lg={6}
               md={6}
               sm={12}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-5"
             >
               <Card className="p-1 mb-3 cardNovedades">
                 <Card.Img variant="top" src={NewsSeis} className="cardImgNov" />
@@ -299,7 +299,7 @@ const Novedades = () => {
               lg={5}
               md={6}
               sm={12}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-5"
             >
               <Card className="p-1 mb-3 cardNovedades">
                 <Card.Img

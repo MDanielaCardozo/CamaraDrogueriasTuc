@@ -23,7 +23,7 @@ const Socios = () => {
         <h2 className="my-4 text-secondary">SOCIOS</h2>
         <hr />
         <div>
-          <Row className="">
+          <Row>
             <Col
               sm={12}
               md={6}
@@ -114,7 +114,7 @@ const Socios = () => {
               </a>
             </Col>
           </Row>
-          <Row className="">
+          <Row>
             <Col
               sm={12}
               md={6}
@@ -213,7 +213,7 @@ const Socios = () => {
               </a>
             </Col>
           </Row>
-          <Row className="">
+          <Row>
             <Col
               sm={12}
               md={6}
@@ -307,7 +307,7 @@ const Socios = () => {
               </a>
             </Col>
           </Row>
-          <Row className="">
+          <Row>
             <Col
               sm={12}
               md={6}
@@ -405,7 +405,7 @@ const Socios = () => {
               </a>
             </Col>
           </Row>
-          <Row className="">
+          <Row>
             <Col
               sm={12}
               md={6}

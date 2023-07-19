@@ -3,7 +3,7 @@
 }
 
 .pageError {
-    background: url('../../img/error404PagCamara.gif') no-repeat center center/cover;
+    background: url('../../img/error404PagCamara.gif') no-repeat center center/contain;
     height: 450px;
 }
 

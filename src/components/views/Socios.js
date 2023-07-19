@@ -23,12 +23,12 @@ const Socios = () => {
         <h2 className="my-4 text-secondary">SOCIOS</h2>
         <hr />
         <div>
-          <Row className="my-5">
+          <Row className="">
             <Col
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -36,7 +36,7 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoMedInt}
@@ -52,7 +52,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="https://drogueriapharmatuk.com.ar/"
@@ -60,9 +60,9 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
-                  <Card.Img variant="top" src={LogoPhar} className="imgCard" />
-                  <Card.Body className="p-1 text-center">
+                <Card className="h-100 cardSocios">
+                  <Card.Img variant="top" src={LogoPhar} className="imgCardPhar" />
+                  <Card.Body className="p-1 d-flex justify-content-center align-items-end">
                     <Card.Text>PHARMATUK SRL</Card.Text>
                   </Card.Body>
                 </Card>
@@ -72,7 +72,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="https://drogueriaophicus.netlify.app/"
@@ -80,8 +80,8 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
-                  <Card.Img variant="top" src={LogoDrog} className="imgCard" />
+                <Card className="h-100 cardSocios">
+                  <Card.Img variant="top" src={LogoDrog} className="imgCardPhar" />
 
                   <Card.Body className="p-1 text-center">
                     <Card.Text>OPHICUS SRL</Card.Text>
@@ -93,7 +93,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -101,7 +101,7 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogDos}
@@ -114,12 +114,12 @@ const Socios = () => {
               </a>
             </Col>
           </Row>
-          <Row className="mb-5">
+          <Row className="">
             <Col
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="https://www.drogueriaplazaona.com.ar/"
@@ -127,11 +127,11 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogPlaza}
-                    className="imgCard"
+                    className="imgCardPhar"
                   />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>PLAZA OÑA</Card.Text>
@@ -143,7 +143,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -151,7 +151,7 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogDos}
@@ -167,7 +167,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -175,11 +175,11 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogFg}
-                    className="imgCard"
+                    className="imgCardPhar"
                   />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>DROGUERIA FG</Card.Text>
@@ -192,7 +192,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -200,7 +200,7 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogDos}
@@ -213,12 +213,12 @@ const Socios = () => {
               </a>
             </Col>
           </Row>
-          <Row className="mb-5">
+          <Row className="">
             <Col
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -226,7 +226,7 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogDos}
@@ -242,7 +242,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -250,7 +250,7 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogDos}
@@ -266,7 +266,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -274,7 +274,7 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img variant="top" src={LogoOnc} className="imgCard" />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>DROGUERIA ONCOFARMA SRL</Card.Text>
@@ -286,7 +286,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -294,11 +294,11 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogMacro}
-                    className="imgCard"
+                    className="imgCardPhar"
                   />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>MACROPHARMA S.A.</Card.Text>
@@ -307,12 +307,12 @@ const Socios = () => {
               </a>
             </Col>
           </Row>
-          <Row className="mb-5">
+          <Row className="">
             <Col
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -320,7 +320,7 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogDos}
@@ -336,7 +336,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -344,7 +344,7 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogDos}
@@ -360,7 +360,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -368,7 +368,7 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogDos}
@@ -384,7 +384,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -392,11 +392,11 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogTuSalud}
-                    className="imgCard"
+                    className="imgCardPhar"
                   />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>TU SALUD S.R.L</Card.Text>
@@ -405,12 +405,12 @@ const Socios = () => {
               </a>
             </Col>
           </Row>
-          <Row className="mb-5">
+          <Row className="">
             <Col
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="http://"
@@ -418,7 +418,7 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogDos}
@@ -434,7 +434,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="https://cosmopharma.com.ar/"
@@ -442,7 +442,7 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogDos}
@@ -458,7 +458,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="https://cosmopharma.com.ar/"
@@ -466,7 +466,7 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogDos}
@@ -482,7 +482,7 @@ const Socios = () => {
               sm={12}
               md={6}
               lg={3}
-              className="d-flex justify-content-center"
+              className="d-flex justify-content-center mb-4"
             >
               <a
                 href="https://cosmopharma.com.ar/"
@@ -490,11 +490,11 @@ const Socios = () => {
                 rel="noopener noreferrer"
                 className="subrayadoText"
               >
-                <Card className="p-1 mb-3 cardSocios">
+                <Card className="h-100 cardSocios">
                   <Card.Img
                     variant="top"
                     src={LogoDrogCosmo}
-                    className="imgCard"
+                    className="imgCardPhar"
                   />
                   <Card.Body className="p-1 text-center">
                     <Card.Text>COSMO PHARMA SRL</Card.Text>

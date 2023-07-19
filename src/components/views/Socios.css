@@ -8,21 +8,41 @@
 
 .cardSocios {
   width: 300px;
-  height: 220px;
+  overflow: hidden;
+}
+
+.cardServ {
+  width: 300px;
   overflow: hidden;
 }
 
 .imgCard {
   width: 100%;
   max-height: 200px;
-  height: 75%;
+  height: 100%;
+  transition: 0.5s;
+  object-fit: contain;
+  padding: 25px;
+  /* filter: grayscale(40%); */
+}
+
+.imgCard:hover {
+  transform: scale(1.2);
+  filter: grayscale(0%);
+  transition: 800ms;
+}
+
+.imgCardPhar {
+  width: 100%;
+  max-height: 200px;
+  height: 100%;
   transition: 0.5s;
   object-fit: cover;
   padding: 25px;
   /* filter: grayscale(40%); */
 }
 
-.imgCard:hover {
+.imgCardPhar:hover {
   transform: scale(1.2);
   filter: grayscale(0%);
   transition: 800ms;
@@ -34,15 +54,46 @@
   font-weight: 600;
 }
 
-@media all and (min-width: 990px) and (max-width: 1390px) {
+@media all and (min-width: 767px) and (max-width: 991px) {
   .cardSocios {
-    width: auto;
-    height: 280px;
+    width: 260px;
     overflow: hidden;
   }
 
   .imgCard {
     min-height: 120px;
-    max-height: 150px;
+    max-height: 180px;
+  }
+
+  .imgCardPhar {
+    object-fit: contain;
+    /* min-height: 100px;
+    max-height: 118px; */
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1299px) {
+  .cardSocios {
+    width: 220px;
+    overflow: hidden;
+  }
+
+  .imgCardPhar {
+    object-fit: contain;
+    /* min-height: 100px;
+    max-height: 118px; */
+  }
+}
+
+@media all and (min-width: 1300px) and (max-width: 3200px) {
+  .cardSocios {
+    width: 300px;
+    overflow: hidden;
+  }
+
+  .imgCardPhar {
+    object-fit: contain;
+    /* min-height: 100px;
+    max-height: 118px; */
   }
 }

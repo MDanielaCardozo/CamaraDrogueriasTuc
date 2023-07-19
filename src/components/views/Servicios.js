@@ -24,7 +24,7 @@ const Servicios = () => {
               sm={12}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
+              <Card className="p-1 mb-3 cardServ">
                 <Card.Img variant="top" src={Semin} className="imgCardServ" />
                 <Card.Body className="p-1 text-center">
                   <Card.Text className="tituloSer">
@@ -39,7 +39,7 @@ const Servicios = () => {
               sm={12}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
+              <Card className="p-1 mb-3 cardServ">
                 <Card.Img variant="top" src={AseCont} className="imgCardServ" />
                 <Card.Body className="p-1 text-center">
                   <Card.Text className="tituloSer">
@@ -54,7 +54,7 @@ const Servicios = () => {
               sm={12}
               className="d-flex justify-content-center"
             >
-              <Card className="p-1 mb-3 cardSocios">
+              <Card className="p-1 mb-3 cardServ">
                 <Card.Img variant="top" src={AseReg} className="imgCardServ" />
                 <Card.Body className="p-1 text-center">
                   <Card.Text className="tituloSer">
